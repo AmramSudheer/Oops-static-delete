@@ -1,0 +1,13 @@
+class Test:
+    a = 10
+
+
+    def m3(self):
+        del Test.a
+        Test.e = 60 
+
+t1=Test()
+
+t1.m3()
+
+print(Test.__dict__)
