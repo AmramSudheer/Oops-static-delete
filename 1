@@ -1,0 +1,7 @@
+class Test:
+    a = 10
+    def m1(cls):
+        del Test.a
+t = Test()
+t.m1()
+print(Test.__dict__)
