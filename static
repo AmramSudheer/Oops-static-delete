@@ -1,0 +1,9 @@
+class Test:
+    a = 10
+    @staticmethod
+    def m3():
+        del Test.a
+        Test.e = 60 
+t1 = test()
+t1.m3()
+print(Test.__dict__)
